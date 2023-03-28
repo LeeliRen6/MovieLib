@@ -5,7 +5,7 @@ import {
   BsGraphUp,
   BsWallet2,
   BsHourglassSplit,
-  BsFillFileEarmarkTextFill,
+  BsFillFileEarmarkTextFill, 
 } from "react-icons/bs";
 
 import MovieCard from "../components/MovieCard";
@@ -58,7 +58,7 @@ const Movie = () => {
           </div>
           <div className="info">
             <h3>
-              <BsHourglassSplit /> Duração:
+              <BsHourglassSplit /> Duração: 
             </h3>
             <p>{movie.runtime} minutos</p>
           </div>
